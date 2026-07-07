@@ -13,7 +13,7 @@ jobs:
 
       - name: Unzip project
         run: |
-          unzip hz-music-github-apk-builder.zip -d app
+          unzip *.zip -d app
           ls app
 
       - name: Setup Flutter
